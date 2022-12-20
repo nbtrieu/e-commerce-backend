@@ -40,7 +40,7 @@ To use this application, simply initialize the npm and install the necessary pac
 
 ![DELETE Tags by ID](./assets/screenshots/DELETE-tags.png)
 
-[To preview more features, watch the walkthrough video here.](https://drive.google.com/file/d/1bNU-BB0QsKX9RZIeJjn8QORgiMKZaFuo/view)
+[To preview more features, watch the walkthrough video here.]()
 
 
 ## Contributing
