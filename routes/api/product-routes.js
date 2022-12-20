@@ -15,8 +15,8 @@ router.get('/', async (req, res) => {
         Category,
         { 
           model: Tag, 
-          // through: ProductTag, (ALTERNATIVE instead of using alias)
-          as: 'product_tags',
+          through: ProductTag, 
+          // as: 'product_tags', (ALTERNATIVE: use alias)
         },
       ],
     });
@@ -37,8 +37,8 @@ router.get('/:id', async (req, res) => {
         Category,
         { 
           model: Tag, 
-          // through: ProductTag, (ALTERNATIVE instead of using alias)
-          as: 'product_tags',
+          through: ProductTag, 
+          // as: 'product_tags', (ALTERNATIVE: use alias)
         },
       ],
     });
