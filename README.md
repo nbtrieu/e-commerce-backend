@@ -1,34 +1,55 @@
-# User Story
-AS A manager at an internet retail company
+# E-commerce Back-End
+## Description
 
-I WANT a back end for my e-commerce website that uses the latest technologies
+This back-end of this application is built using the latest technologies to allow e-commerce sites to successfully create, update, and delete data in their database.
 
-SO THAT my company can compete with other e-commerce companies
+## Table of Content
 
+* [Installation](#installation)
 
-# Acceptance Criteria
-GIVEN a functional Express.js API
+* [Usage](#usage)
 
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
+* [Contributing](#contributing)
 
-THEN I am able to connect to a database using Sequelize
-
-
-WHEN I enter schema and seed commands
-
-THEN a development database is created and is seeded with test data
+* [Questions](#questions)   
 
 
-WHEN I enter the command to invoke the application
+## Installation
 
-THEN my server is started and the Sequelize models are synced to the MySQL database
+To install all necessary dependencies for development purposes, please run the command below:  
+
+``npm init -y``  
+
+``npm i``
 
 
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
+## Usage
 
-THEN the data for each of these routes is displayed in a formatted JSON
+To use this application, simply initialize the npm and install the necessary packages (as instructed above). Then, start the server and use the different API routes as needed, including GET, POST, PUT, and DELETE for categories, products or tags. View some examples of the application's API routes being tested in Insomnia Core below.
+ 
+
+![GET Categories](./assets/screenshots/GET-categories.png)
+ 
+![GET Products](./assets/screenshots/GET-products.png)  
+
+![GET Tags by ID](./assets/screenshots/GET-tags-byID.png)  
+
+![POST New Tags](./assets/screenshots/POST-tags.png)  
+
+![PUT Categories by ID](./assets/screenshots/PUT-categories.png)  
+
+![DELETE Tags by ID](./assets/screenshots/DELETE-tags.png)
+
+[To preview more features, watch the walkthrough video here.](https://drive.google.com/file/d/1bNU-BB0QsKX9RZIeJjn8QORgiMKZaFuo/view)
 
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
+## Contributing
 
-THEN I am able to successfully create, update, and delete data in my database
+There are many ways in which you can participate in this project.
+Users can contribute to this repo by submitting bugs and feature requests, reviewing source code changes, and making pull requests for any issues they can find.    
+
+
+## Questions
+
+For any questions or feedback, please feel free to email me at nbtrieu@uci.edu.
+If you would like to check out more of my projects, please visit [nbtrieu](https://github.com/nbtrieu).
