@@ -1,7 +1,7 @@
 # E-commerce Back-End
 ## Description
 
-This back-end of this application is built using the latest technologies to allow e-commerce sites to successfully create, update, and delete data in their database.
+This back-end application was built to allow e-commerce sites to successfully create, update, and delete data in their database.
 
 ## Table of Content
 
